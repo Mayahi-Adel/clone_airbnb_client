@@ -1,14 +1,11 @@
 import React from 'react';
 import './home.css';
-import Header from '../partials/Header';
 import Banner from '../partials/Banner';
 import Card from '../../components/Card';
-import Footer from '../partials/Footer'
 
 function Home() {
     return(
         <div className="home">
-            <Header />
             <Banner />
             <div className="home__section">
                 <Card src="https://images.pexels.com/photos/955793/pexels-photo-955793.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
@@ -29,7 +26,7 @@ function Home() {
                 <Card />
                 <Card />
             </div>
-            <Footer />
+            
         </div>
     )
 }
